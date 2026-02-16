@@ -142,10 +142,3 @@ response = requests.post(
 )
 print(response.json()["content"])
 ```
-
-## 오픈 소스 (Open Source)
-
-이 프로젝트는 자유롭게 이용하고 기여할 수 있는 오픈 소스 프로젝트다.
-print(response.json()["content"])
-
-```
