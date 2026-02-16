@@ -113,6 +113,22 @@ curl -N -X POST 'http://localhost:8000/agents/research-paper-summary/invoke/stre
 - `event: update`: 도구 호출 정보 (tool_start 등)
 - `event: done`: 최종 완료 (content, citations 포함)
 
+## 📝 Citation
+
+이 프로젝트에서 사용된 A-RAG 알고리즘 연구를 인용하시려면 아래의 BibTeX를 사용해 주세요:
+
+```bibtex
+@misc{du2026aragscalingagenticretrievalaugmented,
+      title={A-RAG: Scaling Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces},
+      author={Mingxuan Du and Benfeng Xu and Chiwei Zhu and Shaohan Wang and Pengyu Wang and Xiaorui Wang and Zhendong Mao},
+      year={2026},
+      eprint={2602.03442},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.03442},
+}
+```
+
 ## 프로젝트 구조
 
 ```bash

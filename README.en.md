@@ -113,6 +113,22 @@ Event Types:
 - `event: update`: Tool call information (tool_start, etc.)
 - `event: done`: Final completion (includes content, citations)
 
+## 📝 Citation
+
+If you use A-RAG in your research, please cite our paper:
+
+```bibtex
+@misc{du2026aragscalingagenticretrievalaugmented,
+      title={A-RAG: Scaling Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces},
+      author={Mingxuan Du and Benfeng Xu and Chiwei Zhu and Shaohan Wang and Pengyu Wang and Xiaorui Wang and Zhendong Mao},
+      year={2026},
+      eprint={2602.03442},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.03442},
+}
+```
+
 ## Project Structure
 
 ```bash
